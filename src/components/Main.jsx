@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import ThemeContext from "src/utilities/ThemeContext";
-import ToggleButton from "src/utilities/ToggleButton";
+import ThemeContext from "../utilities/ThemeContext";
+import ToggleButton from "../utilities/ToggleButton";
 import Weather from "./Weather";
 
 function Main() {
