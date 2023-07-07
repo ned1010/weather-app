@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.main-container {
+  height: 100vh;
+  overflow: scroll;
+}
+
+.weather {
+  padding: 30px 0 10px;
+}
+
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.city-name,
+.temp {
+  padding: 0.75rem;
+}
+
+.min-max {
+  padding: 0.5rem;
+}
+
+.sunset {
+  margin-left: 10px;
+}
+
+.forecast-title {
+  padding: 5px 0 0;
+}
+.forecast {
+  margin-top: 15px;
+  width: 275px;
+  height: 40px;
+  display: flex;
+  border: 0.1px solid blue;
+  border-radius: 20px;
+}
+
+.forecast h4,
+.forecast h5 {
+  width: fit-content;
+}
+
+.forecast img {
+  width: 35px;
+}
+
+.footer {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/*Dark and Light Mode */
+
+#light {
+  background-color: #fff;
+  color: #454545;
+}
+
+#dark {
+  background-color: #010409;
+  color: #fff;
+}
+
+/*Media Query */
+/*Extra small device = 576px */
+@media screen and (max-width: 576px) {
+  .form {
+    width: 275px;
+    display: block;
+  }
+
+  .form .btn {
+    margin-top: 5px;
+  }
+}
+
+/*Small devices min-width: 568px and max-width: 767px */
+
+@media screen and (min-width: 578px) and (max-width: 1200px) {
+  .form .input {
+    width: 400px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 50px;
+  }
+
+  .form .btn {
+    width: 100px;
+    height: 60px;
+  }
+
+  .city-name,
+  .temp {
+    font-size: 2.5rem;
+  }
+  .icon img {
+    width: 150px;
+  }
+
+  .max-min {
+    font-size: 20px;
+  }
+
+  .sun-data {
+    font-size: 20px;
+  }
+
+  .forecast-title {
+    font-size: 2.5rem;
+  }
+
+  .forecast {
+    width: 400px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .forecast img {
+    width: 50px;
+  }
+}
+/*Medium devices min-width: 768px and max-width: 991px */
+
+/*Large devices min-width: 992px and max-width: 1200px */
