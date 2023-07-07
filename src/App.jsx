@@ -1,6 +1,7 @@
 import "./App.css";
-import Main from "src/components/Main";
-import ThemeProvider from "src/utilities/themeProvider";
+import Main from "./components/Main";
+import ThemeProvider from "./utilities/ThemeProvider";
+
 
 
 function App() {
