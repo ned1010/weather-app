@@ -3,7 +3,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 // const API_KEY = "176297b0e219f3cee814ae799a78f816"
-const baseURL = "http://api.openweathermap.org/data/2.5/";
+const baseURL = "https://api.openweathermap.org/data/2.5/";
 const units = "metric";
 
 //get today's today weather data
